@@ -23,6 +23,11 @@ cp ./oauth_google_front/.env.sample ./oauth_google_front/.env
 - GOOGLE_CLIENT_SECRET = "" # Your Date from Google Console
 - GOOGLE_REDIRECT_URI = "http://localhost:9050"  # Your Date from Google Console, Change if you want
 
+## Build
+```bash
+./buid.sh
+```
+
 ## Default Port : 9050
 - docker-compose.yaml
 - Dockerfile
