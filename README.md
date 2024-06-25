@@ -19,9 +19,9 @@ git clone https://github.com/halfenif/toy_oauth_google_streamlit.git
 ```bash
 cp ./oauth_google_front/.env.sample ./oauth_google_front/.env
 ```
-- GOOGLE_CLIENT_ID = "" # Your Date from Google Console
-- GOOGLE_CLIENT_SECRET = "" # Your Date from Google Console
-- GOOGLE_REDIRECT_URI = "http://localhost:9050"  # Your Date from Google Console, Change if you want
+- GOOGLE_CLIENT_ID = "" # Your Data from Google Console
+- GOOGLE_CLIENT_SECRET = "" # Your Data from Google Console
+- GOOGLE_REDIRECT_URI = "http://localhost:9050"  # Your Data from Google Console, Change if you want
 
 ## Build
 ```bash
