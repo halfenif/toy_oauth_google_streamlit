@@ -1,0 +1,13 @@
+services:
+  toy_oauth_google_streamlit:
+    build: oauth_google_front/
+    ports: 
+        - 9050:9050
+    networks:
+      - deploy_network
+    container_name: toy_oauth_google_streamlit
+    restart: always
+
+networks:
+  deploy_network:
+    driver: bridge
